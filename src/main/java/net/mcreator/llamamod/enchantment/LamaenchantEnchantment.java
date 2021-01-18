@@ -15,7 +15,7 @@ public class LamaenchantEnchantment extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:lamaenchant")
 	public static final Enchantment enchantment = null;
 	public LamaenchantEnchantment(LlamaModModElements instance) {
-		super(instance, 10);
+		super(instance, 56);
 	}
 
 	@Override

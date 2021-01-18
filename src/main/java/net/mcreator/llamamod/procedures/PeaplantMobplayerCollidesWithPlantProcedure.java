@@ -10,7 +10,7 @@ import java.util.Map;
 @LlamaModModElements.ModElement.Tag
 public class PeaplantMobplayerCollidesWithPlantProcedure extends LlamaModModElements.ModElement {
 	public PeaplantMobplayerCollidesWithPlantProcedure(LlamaModModElements instance) {
-		super(instance, 68);
+		super(instance, 89);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -33,7 +33,7 @@ public class LlamabiomeBiome extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llamabiome")
 	public static final CustomBiome biome = null;
 	public LlamabiomeBiome(LlamaModModElements instance) {
-		super(instance, 14);
+		super(instance, 59);
 	}
 
 	@Override

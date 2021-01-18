@@ -47,7 +47,7 @@ public class LlamagunItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:entitybulletllamagun")
 	public static final EntityType arrow = null;
 	public LlamagunItem(LlamaModModElements instance) {
-		super(instance, 9);
+		super(instance, 4);
 	}
 
 	@Override

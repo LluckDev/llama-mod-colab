@@ -17,7 +17,7 @@ public class LlamaStonePickaxeItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_pickaxe")
 	public static final Item block = null;
 	public LlamaStonePickaxeItem(LlamaModModElements instance) {
-		super(instance, 31);
+		super(instance, 14);
 	}
 
 	@Override

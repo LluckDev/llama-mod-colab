@@ -65,7 +65,7 @@ public class CookingblockBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:cookingblock")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public CookingblockBlock(LlamaModModElements instance) {
-		super(instance, 76);
+		super(instance, 29);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

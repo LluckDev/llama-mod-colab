@@ -20,7 +20,7 @@ import java.util.Map;
 @LlamaModModElements.ModElement.Tag
 public class CookingPotFuseProcedure extends LlamaModModElements.ModElement {
 	public CookingPotFuseProcedure(LlamaModModElements instance) {
-		super(instance, 75);
+		super(instance, 96);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

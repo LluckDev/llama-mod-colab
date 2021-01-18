@@ -13,7 +13,7 @@ import net.mcreator.llamamod.LlamaModModElements;
 @LlamaModModElements.ModElement.Tag
 public class LlamacreativetabItemGroup extends LlamaModModElements.ModElement {
 	public LlamacreativetabItemGroup(LlamaModModElements instance) {
-		super(instance, 2);
+		super(instance, 51);
 	}
 
 	@Override

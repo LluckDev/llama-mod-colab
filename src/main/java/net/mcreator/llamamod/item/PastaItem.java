@@ -17,7 +17,7 @@ public class PastaItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:pasta")
 	public static final Item block = null;
 	public PastaItem(LlamaModModElements instance) {
-		super(instance, 20);
+		super(instance, 9);
 	}
 
 	@Override

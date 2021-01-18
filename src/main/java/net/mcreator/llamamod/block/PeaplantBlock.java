@@ -57,7 +57,7 @@ public class PeaplantBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:peaplant")
 	public static final Block block = null;
 	public PeaplantBlock(LlamaModModElements instance) {
-		super(instance, 17);
+		super(instance, 7);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class LlamaStoneArmorItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_armor_boots")
 	public static final Item boots = null;
 	public LlamaStoneArmorItem(LlamaModModElements instance) {
-		super(instance, 41);
+		super(instance, 19);
 	}
 
 	@Override

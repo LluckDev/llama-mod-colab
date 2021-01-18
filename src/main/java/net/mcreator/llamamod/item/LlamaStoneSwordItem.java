@@ -17,7 +17,7 @@ public class LlamaStoneSwordItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_sword")
 	public static final Item block = null;
 	public LlamaStoneSwordItem(LlamaModModElements instance) {
-		super(instance, 33);
+		super(instance, 16);
 	}
 
 	@Override

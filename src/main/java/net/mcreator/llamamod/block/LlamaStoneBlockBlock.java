@@ -24,7 +24,7 @@ public class LlamaStoneBlockBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_block")
 	public static final Block block = null;
 	public LlamaStoneBlockBlock(LlamaModModElements instance) {
-		super(instance, 27);
+		super(instance, 13);
 	}
 
 	@Override

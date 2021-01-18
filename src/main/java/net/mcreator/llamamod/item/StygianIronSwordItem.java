@@ -1,14 +1,22 @@
 
 package net.mcreator.llamamod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.llamamod.LlamaModModElements;
+
 @LlamaModModElements.ModElement.Tag
 public class StygianIronSwordItem extends LlamaModModElements.ModElement {
-
 	@ObjectHolder("llama_mod:stygian_iron_sword")
 	public static final Item block = null;
-
 	public StygianIronSwordItem(LlamaModModElements instance) {
-		super(instance, 37);
+		super(instance, 36);
 	}
 
 	@Override
@@ -38,8 +46,6 @@ public class StygianIronSwordItem extends LlamaModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(StygianIronIngotItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(OPMItemGroup.tab)) {
-
 		}.setRegistryName("stygian_iron_sword"));
 	}
-
 }

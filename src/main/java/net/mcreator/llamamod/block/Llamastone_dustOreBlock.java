@@ -39,7 +39,7 @@ public class Llamastone_dustOreBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llamastone_dust_ore")
 	public static final Block block = null;
 	public Llamastone_dustOreBlock(LlamaModModElements instance) {
-		super(instance, 47);
+		super(instance, 20);
 	}
 
 	@Override

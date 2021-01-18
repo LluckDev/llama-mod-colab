@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "llama_mod:unknown_element"
+      "item": "llama_mod:stygian_dust_dust"
     },
     "2": {
-      "item": "llama_mod:unknown_element"
+      "item": "llama_mod:stygian_dust_dust"
     },
     "3": {
-      "item": "llama_mod:unknown_element"
+      "item": "llama_mod:stygian_dust_dust"
     },
     "5": {
-      "item": "llama_mod:unknown_element"
+      "item": "llama_mod:stygian_dust_dust"
     }
   },
   "result": {
-    "item": "llama_mod:unknown_element_boots",
+    "item": "llama_mod:stygian_dust_armor_boots",
     "count": 1
   }
 }

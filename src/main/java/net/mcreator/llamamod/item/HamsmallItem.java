@@ -16,7 +16,7 @@ public class HamsmallItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:hamsmall")
 	public static final Item block = null;
 	public HamsmallItem(LlamaModModElements instance) {
-		super(instance, 15);
+		super(instance, 6);
 	}
 
 	@Override

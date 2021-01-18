@@ -7,7 +7,7 @@ import java.util.Map;
 @LlamaModModElements.ModElement.Tag
 public class TestProcedure extends LlamaModModElements.ModElement {
 	public TestProcedure(LlamaModModElements instance) {
-		super(instance, 80);
+		super(instance, 101);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -16,7 +16,7 @@ public class LlamaStoneIngotItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_ingot")
 	public static final Item block = null;
 	public LlamaStoneIngotItem(LlamaModModElements instance) {
-		super(instance, 25);
+		super(instance, 11);
 	}
 
 	@Override

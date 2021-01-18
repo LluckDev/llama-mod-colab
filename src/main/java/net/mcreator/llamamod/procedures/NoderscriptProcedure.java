@@ -17,7 +17,7 @@ import java.util.Map;
 @LlamaModModElements.ModElement.Tag
 public class NoderscriptProcedure extends LlamaModModElements.ModElement {
 	public NoderscriptProcedure(LlamaModModElements instance) {
-		super(instance, 82);
+		super(instance, 103);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

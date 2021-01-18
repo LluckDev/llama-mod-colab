@@ -24,7 +24,7 @@ public class Llamastone_dustBlockBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llamastone_dust_block")
 	public static final Block block = null;
 	public Llamastone_dustBlockBlock(LlamaModModElements instance) {
-		super(instance, 48);
+		super(instance, 21);
 	}
 
 	@Override
