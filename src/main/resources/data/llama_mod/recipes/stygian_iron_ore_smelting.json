@@ -4,9 +4,9 @@
   "experience": 0.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "llama_mod:stygian_iron_ore"
+    "item": "llama_mod:unknown_element"
   },
   "result": {
-    "item": "llama_mod:stygian_iron_ingot"
+    "item": "llama_mod:unknown_element"
   }
 }

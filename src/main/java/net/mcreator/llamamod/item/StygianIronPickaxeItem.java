@@ -1,21 +1,12 @@
 
 package net.mcreator.llamamod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.llamamod.itemgroup.OPMItemGroup;
-import net.mcreator.llamamod.LlamaModModElements;
-
 @LlamaModModElements.ModElement.Tag
 public class StygianIronPickaxeItem extends LlamaModModElements.ModElement {
+
 	@ObjectHolder("llama_mod:stygian_iron_pickaxe")
 	public static final Item block = null;
+
 	public StygianIronPickaxeItem(LlamaModModElements instance) {
 		super(instance, 38);
 	}
@@ -47,6 +38,8 @@ public class StygianIronPickaxeItem extends LlamaModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(StygianIronIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(OPMItemGroup.tab)) {
+
 		}.setRegistryName("stygian_iron_pickaxe"));
 	}
+
 }
