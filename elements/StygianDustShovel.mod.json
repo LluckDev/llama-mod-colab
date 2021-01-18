@@ -8,7 +8,7 @@
     "name": "StygianDust Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OPM"
     },
     "toolType": "Spade",
     "harvestLevel": 2,

@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
+import net.mcreator.llamamod.itemgroup.OPMItemGroup;
 import net.mcreator.llamamod.LlamaModModElements;
 
 @LlamaModModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class StygianIronHoeItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:stygian_iron_hoe")
 	public static final Item block = null;
 	public StygianIronHoeItem(LlamaModModElements instance) {
-		super(instance, 94);
+		super(instance, 41);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class StygianIronHoeItem extends LlamaModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(StygianIronIngotItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, -3f, new Item.Properties().group(OPMItemGroup.tab)) {
 		}.setRegistryName("stygian_iron_hoe"));
 	}
 }

@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "stygianiron_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:OPM"
     },
     "armorTextureFile": "stygianiron",
     "helmetName": "StygianIron Helmet",

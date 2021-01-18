@@ -13,7 +13,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.llamamod.itemgroup.LlamacreativetabItemGroup;
+import net.mcreator.llamamod.itemgroup.OPMItemGroup;
 import net.mcreator.llamamod.LlamaModModElements;
 
 import java.util.List;
@@ -24,14 +24,13 @@ public class StygianDustBlockBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:stygian_dust_block")
 	public static final Block block = null;
 	public StygianDustBlockBlock(LlamaModModElements instance) {
-		super(instance, 107);
+		super(instance, 44);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(LlamacreativetabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(OPMItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

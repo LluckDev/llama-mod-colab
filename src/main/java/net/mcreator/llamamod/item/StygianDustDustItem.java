@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.llamamod.itemgroup.OPMItemGroup;
 import net.mcreator.llamamod.LlamaModModElements;
 
 @LlamaModModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class StygianDustDustItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:stygian_dust_dust")
 	public static final Item block = null;
 	public StygianDustDustItem(LlamaModModElements instance) {
-		super(instance, 105);
+		super(instance, 43);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class StygianDustDustItem extends LlamaModModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(OPMItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("stygian_dust_dust");
 		}
 

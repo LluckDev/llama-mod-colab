@@ -26,7 +26,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.llamamod.itemgroup.LlamacreativetabItemGroup;
+import net.mcreator.llamamod.itemgroup.OPMItemGroup;
 import net.mcreator.llamamod.item.StygianIronIngotItem;
 import net.mcreator.llamamod.LlamaModModElements;
 
@@ -39,14 +39,13 @@ public class StygianIronOreBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:stygian_iron_ore")
 	public static final Block block = null;
 	public StygianIronOreBlock(LlamaModModElements instance) {
-		super(instance, 85);
+		super(instance, 34);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(LlamacreativetabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(OPMItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

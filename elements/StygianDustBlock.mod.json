@@ -31,7 +31,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Llamacreativetab"
+      "value": "CUSTOM:OPM"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
