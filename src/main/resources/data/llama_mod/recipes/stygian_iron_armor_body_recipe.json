@@ -1,0 +1,39 @@
+{
+  "group": "llama_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "llama_mod:unknown_element"
+    },
+    "2": {
+      "item": "llama_mod:unknown_element"
+    },
+    "3": {
+      "item": "llama_mod:unknown_element"
+    },
+    "4": {
+      "item": "llama_mod:unknown_element"
+    },
+    "5": {
+      "item": "llama_mod:unknown_element"
+    },
+    "6": {
+      "item": "llama_mod:unknown_element"
+    },
+    "7": {
+      "item": "llama_mod:unknown_element"
+    },
+    "8": {
+      "item": "llama_mod:unknown_element"
+    }
+  },
+  "result": {
+    "item": "llama_mod:stygian_iron_armor_chestplate",
+    "count": 1
+  }
+}

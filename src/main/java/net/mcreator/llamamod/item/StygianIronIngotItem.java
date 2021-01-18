@@ -2,12 +2,12 @@
 package net.mcreator.llamamod.item;
 
 @LlamaModModElements.ModElement.Tag
-public class Opm112khdlksflhItem extends LlamaModModElements.ModElement {
+public class StygianIronIngotItem extends LlamaModModElements.ModElement {
 
-	@ObjectHolder("llama_mod:opm_112khdlksflh")
+	@ObjectHolder("llama_mod:stygian_iron_ingot")
 	public static final Item block = null;
 
-	public Opm112khdlksflhItem(LlamaModModElements instance) {
+	public StygianIronIngotItem(LlamaModModElements instance) {
 		super(instance, 84);
 
 	}
@@ -20,8 +20,8 @@ public class Opm112khdlksflhItem extends LlamaModModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("opm_112khdlksflh");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("stygian_iron_ingot");
 		}
 
 		@Override

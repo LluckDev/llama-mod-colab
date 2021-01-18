@@ -890,6 +890,396 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "opm"
+    },
+    {
+      "name": "StygianIronOreSmelting",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_ore_smelting"
+    },
+    {
+      "name": "StygianIronArmor",
+      "type": "armor",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StygianIronBlock",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_block"
+    },
+    {
+      "name": "StygianDustOre",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_ore"
+    },
+    {
+      "name": "StygianIronOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_ore_block_recipe"
+    },
+    {
+      "name": "StygianIronShovelRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_shovel_recipe"
+    },
+    {
+      "name": "StygianDustArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_armor_boots_recipe"
+    },
+    {
+      "name": "StygianDustOreSmelting",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_ore_smelting"
+    },
+    {
+      "name": "StygianDustSword",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_sword"
+    },
+    {
+      "name": "StygianIronHoeRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_hoe_recipe"
+    },
+    {
+      "name": "StygianDustHoeRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_hoe_recipe"
+    },
+    {
+      "name": "StygianIronArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_armor_body_recipe"
+    },
+    {
+      "name": "StygianDustArmor",
+      "type": "armor",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StygianDustDust",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_dust"
+    },
+    {
+      "name": "StygianIronIngot",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_ingot"
+    },
+    {
+      "name": "StygianIronBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_block_ore_recipe"
+    },
+    {
+      "name": "StygianIronOre",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_ore"
+    },
+    {
+      "name": "StygianIronArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_armor_helmet_recipe"
+    },
+    {
+      "name": "StygianDustSwordRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_sword_recipe"
+    },
+    {
+      "name": "StygianDustArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_armor_body_recipe"
+    },
+    {
+      "name": "StygianIronSword",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_sword"
+    },
+    {
+      "name": "StygianDustPickaxe",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_pickaxe"
+    },
+    {
+      "name": "StygianIronHoe",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_hoe"
+    },
+    {
+      "name": "StygianDustShovelRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_shovel_recipe"
+    },
+    {
+      "name": "StygianDustOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_ore_block_recipe"
+    },
+    {
+      "name": "StygianDustPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_pickaxe_recipe"
+    },
+    {
+      "name": "StygianDustBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_block_ore_recipe"
+    },
+    {
+      "name": "StygianIronShovel",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_shovel"
+    },
+    {
+      "name": "StygianIronArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_armor_leggings_recipe"
+    },
+    {
+      "name": "StygianDustHoe",
+      "type": "tool",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_hoe"
+    },
+    {
+      "name": "StygianDustAxeRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_axe_recipe"
+    },
+    {
+      "name": "StygianIronPickaxe",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_pickaxe"
+    },
+    {
+      "name": "StygianIronAxe",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_axe"
+    },
+    {
+      "name": "StygianIronPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_pickaxe_recipe"
+    },
+    {
+      "name": "StygianIronArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_armor_boots_recipe"
+    },
+    {
+      "name": "StygianDustBlock",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_block"
+    },
+    {
+      "name": "StygianDustArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_armor_helmet_recipe"
+    },
+    {
+      "name": "StygianDustArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_armor_leggings_recipe"
+    },
+    {
+      "name": "StygianIronAxeRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_axe_recipe"
+    },
+    {
+      "name": "StygianIronSwordRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_iron_sword_recipe"
+    },
+    {
+      "name": "StygianDustShovel",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_shovel"
+    },
+    {
+      "name": "StygianDustAxe",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stygian_dust_axe"
     }
   ],
   "variable_elements": [],
@@ -935,8 +1325,6 @@
       "item.llama_mod.llama_stone_sword": "LlamaStone Sword",
       "item.llama_mod.llama_stone_armor_helmet": "LlamaStone Helmet",
       "advancements.manaseswimer.descr": "swimng in manays",
-      "itemGroup.tabopm": "Opm",
-      "item.llama_mod.opm_112khdlksflh": "Opm 1 1 2khdlksflh",
       "block.llama_mod.peaplant": "Peaplant",
       "item.llama_mod.llamastone_dust_axe": "Llamastone_dust Axe",
       "item.llama_mod.llama_stone_armor_leggings": "LlamaStone Leggings",

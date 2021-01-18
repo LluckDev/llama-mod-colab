@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "llama_mod:blocks/stygianiron_ore",
+    "particle": "llama_mod:blocks/stygianiron_ore"
+  }
+}
