@@ -1,12 +1,21 @@
 
 package net.mcreator.llamamod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.llamamod.LlamaModModElements;
+
 @LlamaModModElements.ModElement.Tag
 public class StygianIronShovelItem extends LlamaModModElements.ModElement {
-
 	@ObjectHolder("llama_mod:stygian_iron_shovel")
 	public static final Item block = null;
-
 	public StygianIronShovelItem(LlamaModModElements instance) {
 		super(instance, 93);
 	}
@@ -38,8 +47,6 @@ public class StygianIronShovelItem extends LlamaModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(StygianIronIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("stygian_iron_shovel"));
 	}
-
 }

@@ -1,9 +1,17 @@
 
 package net.mcreator.llamamod.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.llamamod.item.Opm112khdlksflhItem;
+import net.mcreator.llamamod.LlamaModModElements;
+
 @LlamaModModElements.ModElement.Tag
 public class OpmItemGroup extends LlamaModModElements.ModElement {
-
 	public OpmItemGroup(LlamaModModElements instance) {
 		super(instance, 85);
 	}
@@ -23,7 +31,5 @@ public class OpmItemGroup extends LlamaModModElements.ModElement {
 			}
 		};
 	}
-
 	public static ItemGroup tab;
-
 }

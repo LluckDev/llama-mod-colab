@@ -8,10 +8,10 @@
   ],
   "key": {
     "0": {
-      "item": "llama_mod:unknown_element"
+      "item": "llama_mod:stygian_dust_dust"
     },
     "1": {
-      "item": "llama_mod:unknown_element"
+      "item": "llama_mod:stygian_dust_dust"
     },
     "3": {
       "item": "minecraft:stick"
@@ -21,7 +21,7 @@
     }
   },
   "result": {
-    "item": "llama_mod:unknown_element",
+    "item": "llama_mod:stygian_dust_hoe",
     "count": 1
   }
 }

@@ -1,12 +1,21 @@
 
 package net.mcreator.llamamod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.llamamod.LlamaModModElements;
+
 @LlamaModModElements.ModElement.Tag
 public class StygianDustSwordItem extends LlamaModModElements.ModElement {
-
 	@ObjectHolder("llama_mod:stygian_dust_sword")
 	public static final Item block = null;
-
 	public StygianDustSwordItem(LlamaModModElements instance) {
 		super(instance, 113);
 	}
@@ -38,8 +47,6 @@ public class StygianDustSwordItem extends LlamaModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(StygianDustDustItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 		}.setRegistryName("stygian_dust_sword"));
 	}
-
 }
