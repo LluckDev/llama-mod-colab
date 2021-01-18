@@ -17,7 +17,7 @@ public class UncookedllamachowItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:uncookedllamachow")
 	public static final Item block = null;
 	public UncookedllamachowItem(LlamaModModElements instance) {
-		super(instance, 22);
+		super(instance, 10);
 	}
 
 	@Override

@@ -103,7 +103,7 @@ public class LlamalandDimension extends LlamaModModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public LlamalandDimension(LlamaModModElements instance) {
-		super(instance, 13);
+		super(instance, 5);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

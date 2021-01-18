@@ -11,7 +11,7 @@ import java.util.Map;
 @LlamaModModElements.ModElement.Tag
 public class LlamaspiterBulletHitsBlockProcedure extends LlamaModModElements.ModElement {
 	public LlamaspiterBulletHitsBlockProcedure(LlamaModModElements instance) {
-		super(instance, 71);
+		super(instance, 92);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

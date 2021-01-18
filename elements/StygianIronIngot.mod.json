@@ -8,7 +8,7 @@
     "name": "StygianIron",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OPM"
     },
     "stackSize": 64,
     "enchantability": 0,

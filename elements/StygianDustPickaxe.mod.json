@@ -8,7 +8,7 @@
     "name": "StygianDust Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OPM"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 2,

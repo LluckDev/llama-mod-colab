@@ -17,7 +17,7 @@ public class PeasItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:peas")
 	public static final Item block = null;
 	public PeasItem(LlamaModModElements instance) {
-		super(instance, 19);
+		super(instance, 8);
 	}
 
 	@Override

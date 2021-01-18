@@ -17,7 +17,7 @@ public class LlamaStoneShovelItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_shovel")
 	public static final Item block = null;
 	public LlamaStoneShovelItem(LlamaModModElements instance) {
-		super(instance, 34);
+		super(instance, 17);
 	}
 
 	@Override

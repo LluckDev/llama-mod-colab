@@ -17,7 +17,7 @@ public class IvisbullitItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:ivisbullit")
 	public static final Item block = null;
 	public IvisbullitItem(LlamaModModElements instance) {
-		super(instance, 70);
+		super(instance, 91);
 	}
 
 	@Override

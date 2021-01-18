@@ -15,7 +15,7 @@ public class LlamacreativesecrititemllololgetitnowItem extends LlamaModModElemen
 	@ObjectHolder("llama_mod:llamacreativesecrititemllololgetitnow")
 	public static final Item block = null;
 	public LlamacreativesecrititemllololgetitnowItem(LlamaModModElements instance) {
-		super(instance, 6);
+		super(instance, 53);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class LlamaspiterItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:entitybulletllamaspiter")
 	public static final EntityType arrow = null;
 	public LlamaspiterItem(LlamaModModElements instance) {
-		super(instance, 69);
+		super(instance, 28);
 	}
 
 	@Override

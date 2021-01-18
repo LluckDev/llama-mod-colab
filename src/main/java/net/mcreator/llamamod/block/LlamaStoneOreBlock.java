@@ -39,7 +39,7 @@ public class LlamaStoneOreBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_ore")
 	public static final Block block = null;
 	public LlamaStoneOreBlock(LlamaModModElements instance) {
-		super(instance, 26);
+		super(instance, 12);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ import java.util.Random;
 @LlamaModModElements.ModElement.Tag
 public class LlamaStacheStructure extends LlamaModModElements.ModElement {
 	public LlamaStacheStructure(LlamaModModElements instance) {
-		super(instance, 79);
+		super(instance, 100);
 	}
 
 	@Override

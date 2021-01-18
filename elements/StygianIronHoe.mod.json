@@ -8,7 +8,7 @@
     "name": "StygianIron Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:OPM"
     },
     "toolType": "Hoe",
     "harvestLevel": 2,

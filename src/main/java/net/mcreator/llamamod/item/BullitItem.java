@@ -16,7 +16,7 @@ public class BullitItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:bullit")
 	public static final Item block = null;
 	public BullitItem(LlamaModModElements instance) {
-		super(instance, 9);
+		super(instance, 3);
 	}
 
 	@Override

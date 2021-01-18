@@ -17,7 +17,7 @@ public class LlamaStoneHoeItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_hoe")
 	public static final Item block = null;
 	public LlamaStoneHoeItem(LlamaModModElements instance) {
-		super(instance, 35);
+		super(instance, 18);
 	}
 
 	@Override

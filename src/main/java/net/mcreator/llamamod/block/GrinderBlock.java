@@ -65,7 +65,7 @@ public class GrinderBlock extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:grinder")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public GrinderBlock(LlamaModModElements instance) {
-		super(instance, 83);
+		super(instance, 30);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

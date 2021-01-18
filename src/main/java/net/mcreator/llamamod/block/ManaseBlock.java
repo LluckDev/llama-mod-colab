@@ -51,7 +51,7 @@ public class ManaseBlock extends LlamaModModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public ManaseBlock(LlamaModModElements instance) {
-		super(instance, 7);
+		super(instance, 2);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

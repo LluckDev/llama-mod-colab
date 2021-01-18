@@ -17,7 +17,7 @@ public class LlamaStoneAxeItem extends LlamaModModElements.ModElement {
 	@ObjectHolder("llama_mod:llama_stone_axe")
 	public static final Item block = null;
 	public LlamaStoneAxeItem(LlamaModModElements instance) {
-		super(instance, 32);
+		super(instance, 15);
 	}
 
 	@Override
